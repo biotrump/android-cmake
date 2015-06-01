@@ -1,0 +1,9 @@
+# Load hello targets from the build tree if necessary.
+set(_HELLO_TARGET "@_hello_config_build_guard_target@")
+if(_HELLO_TARGET AND NOT TARGET "${_HELLO_TARGET}")
+  include("@HELLO_BINARY_DIR@/hello-targets.cmake")
+endif()
+unset(_HELLO_TARGET)
+
+# Report the blas and hello raw or imported libraries.
+set(HELLO_hello_LIBRARIES "@HELLO_LIBRARIES@")

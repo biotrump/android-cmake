@@ -1,0 +1,10 @@
+The target system is: Android - 1 - armv5te
+The host system is: Linux - 3.13.0-43-generic - x86_64
+Determining if the Fortran compiler is GNU succeeded with the following output:
+# 1 "/home/thomas/cmake-3.2.2/share/cmake-3.2/Modules/CMakeTestGNU.c"
+# 1 "<built-in>"
+# 1 "<command-line>"
+# 1 "/home/thomas/cmake-3.2.2/share/cmake-3.2/Modules/CMakeTestGNU.c"
+
+void THIS_IS_GNU();
+

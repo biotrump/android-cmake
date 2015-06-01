@@ -1,0 +1,148 @@
+The target system is: Android - 1 - armv5te
+The host system is: Linux - 3.13.0-43-generic - x86_64
+Compiling the Fortran compiler identification source file "CMakeFortranCompilerId.F" succeeded.
+Compiler: /home/thomas/NDK/android-ndk-r9/toolchains/arm-linux-androideabi-4.8.0/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gfortran 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the Fortran compiler identification source "CMakeFortranCompilerId.F" produced "a.out"
+
+The Fortran compiler identification is GNU, found in "/home/thomas/build/android-cmake/cmdline.r9/build/armeabi/CMakeFiles/3.2.2/CompilerIdFortran/a.out"
+
+Determining if the Fortran compiler works passed with the following output:
+Change Dir: /home/thomas/build/android-cmake/cmdline.r9/build/armeabi/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1708459865/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1708459865.dir/build.make CMakeFiles/cmTryCompileExec1708459865.dir/build
+make[1]: Entering directory `/home/thomas/build/android-cmake/cmdline.r9/build/armeabi/CMakeFiles/CMakeTmp'
+/home/thomas/cmake-3.2.2/bin/cmake -E cmake_progress_report /home/thomas/build/android-cmake/cmdline.r9/build/armeabi/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building Fortran object CMakeFiles/cmTryCompileExec1708459865.dir/testFortranCompiler.f.o
+/home/thomas/NDK/android-ndk-r9/toolchains/arm-linux-androideabi-4.8.0/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gfortran  -DANDROID -isystem /home/thomas/NDK/android-ndk-r9/platforms/android-14/arch-arm/usr/include -isystem /home/thomas/NDK/android-ndk-r9/sources/cxx-stl/gnu-libstdc++/include -isystem /home/thomas/NDK/android-ndk-r9/sources/cxx-stl/gnu-libstdc++/libs/armeabi/include -isystem /home/thomas/NDK/android-ndk-r9/sources/cxx-stl/gnu-libstdc++/include/backward    -c /home/thomas/build/android-cmake/cmdline.r9/build/armeabi/CMakeFiles/CMakeTmp/testFortranCompiler.f -o CMakeFiles/cmTryCompileExec1708459865.dir/testFortranCompiler.f.o
+Linking Fortran executable cmTryCompileExec1708459865
+/home/thomas/cmake-3.2.2/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1708459865.dir/link.txt --verbose=1
+/home/thomas/NDK/android-ndk-r9/toolchains/arm-linux-androideabi-4.8.0/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gfortran    -Wl,--no-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc    CMakeFiles/cmTryCompileExec1708459865.dir/testFortranCompiler.f.o  -o cmTryCompileExec1708459865  -L/libs/armeabi  
+make[1]: Leaving directory `/home/thomas/build/android-cmake/cmdline.r9/build/armeabi/CMakeFiles/CMakeTmp'
+
+
+Detecting Fortran compiler ABI info compiled with the following output:
+Change Dir: /home/thomas/build/android-cmake/cmdline.r9/build/armeabi/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec70236690/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec70236690.dir/build.make CMakeFiles/cmTryCompileExec70236690.dir/build
+make[1]: Entering directory `/home/thomas/build/android-cmake/cmdline.r9/build/armeabi/CMakeFiles/CMakeTmp'
+/home/thomas/cmake-3.2.2/bin/cmake -E cmake_progress_report /home/thomas/build/android-cmake/cmdline.r9/build/armeabi/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building Fortran object CMakeFiles/cmTryCompileExec70236690.dir/CMakeFortranCompilerABI.F.o
+/home/thomas/NDK/android-ndk-r9/toolchains/arm-linux-androideabi-4.8.0/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gfortran  -DANDROID -isystem /home/thomas/NDK/android-ndk-r9/platforms/android-14/arch-arm/usr/include -isystem /home/thomas/NDK/android-ndk-r9/sources/cxx-stl/gnu-libstdc++/include -isystem /home/thomas/NDK/android-ndk-r9/sources/cxx-stl/gnu-libstdc++/libs/armeabi/include -isystem /home/thomas/NDK/android-ndk-r9/sources/cxx-stl/gnu-libstdc++/include/backward    -c /home/thomas/cmake-3.2.2/share/cmake-3.2/Modules/CMakeFortranCompilerABI.F -o CMakeFiles/cmTryCompileExec70236690.dir/CMakeFortranCompilerABI.F.o
+Linking Fortran executable cmTryCompileExec70236690
+/home/thomas/cmake-3.2.2/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec70236690.dir/link.txt --verbose=1
+/home/thomas/NDK/android-ndk-r9/toolchains/arm-linux-androideabi-4.8.0/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gfortran    -Wl,--no-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc -v   CMakeFiles/cmTryCompileExec70236690.dir/CMakeFortranCompilerABI.F.o  -o cmTryCompileExec70236690  -L/libs/armeabi   
+Driving: /home/thomas/NDK/android-ndk-r9/toolchains/arm-linux-androideabi-4.8.0/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gfortran -Wl,--no-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc -v CMakeFiles/cmTryCompileExec70236690.dir/CMakeFortranCompilerABI.F.o -o cmTryCompileExec70236690 -L/libs/armeabi -l gfortran -l m
+Using built-in specs.
+COLLECT_GCC=/home/thomas/NDK/android-ndk-r9/toolchains/arm-linux-androideabi-4.8.0/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gfortran
+COLLECT_LTO_WRAPPER=/home/thomas/aosp/NDK/android-ndk-r9/toolchains/arm-linux-androideabi-4.8.0/prebuilt/linux-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.8.0/lto-wrapper
+Target: arm-linux-androideabi
+Configured with: /home/thomas/aosp/NDK/android-ndk-r9/src/build/../gcc/gcc-4.8.0/configure --prefix=/tmp/ndk-thomas/build/toolchain/prefix --target=arm-linux-androideabi --host=x86_64-linux-gnu --build=x86_64-linux-gnu --with-gnu-as --with-gnu-ld --enable-languages=c,c++,fortran --with-gmp=/tmp/ndk-thomas/build/toolchain/temp-install --with-mpfr=/tmp/ndk-thomas/build/toolchain/temp-install --with-mpc=/tmp/ndk-thomas/build/toolchain/temp-install --disable-libssp --enable-threads --disable-nls --disable-libmudflap --disable-libgomp --disable-libstdc__-v3 --disable-sjlj-exceptions --disable-shared --disable-tls --with-float=soft --with-fpu=vfp --with-arch=armv5te --enable-target-optspace --enable-initfini-array --disable-nls --prefix=/tmp/ndk-thomas/build/toolchain/prefix --with-sysroot=/tmp/ndk-thomas/build/toolchain/prefix/sysroot --with-binutils-version=2.22.90 --with-mpfr-version=3.0.1 --with-mpc-version=1.0 --with-gmp-version=5.0.5 --with-gcc-version=4.8.0 --with-gdb-version=7.4.1 --with-gxx-include-dir=/tmp/ndk-thomas/build/toolchain/prefix/include/c++/4.8.0 --enable-languages=c,c++,fortran --disable-tls --disable-libitm --disable-libatomic --disable-bootstrap --disable-libquadmath --disable-libquadmath-support --disable-plugin --disable-libgomp --disable-libsanitizer --enable-gold=default --enable-graphite=yes --with-cloog-version=0.18.0 --with-isl-version=0.11.1 --with-arch=armv5te --program-transform-name='s,^,arm-linux-androideabi-,'
+Thread model: posix
+gcc version 4.8.0 20120807 (experimental) (GCC) 
+Reading specs from /home/thomas/aosp/NDK/android-ndk-r9/toolchains/arm-linux-androideabi-4.8.0/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8.0/../../../../arm-linux-androideabi/lib/libgfortran.spec
+rename spec lib to liborig
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec70236690' '-L/libs/armeabi' '-march=armv5te' '-mfloat-abi=soft' '-mfpu=vfp' '-mtls-dialect=gnu'
+COMPILER_PATH=/home/thomas/aosp/NDK/android-ndk-r9/toolchains/arm-linux-androideabi-4.8.0/prebuilt/linux-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.8.0/:/home/thomas/aosp/NDK/android-ndk-r9/toolchains/arm-linux-androideabi-4.8.0/prebuilt/linux-x86_64/bin/../libexec/gcc/:/home/thomas/aosp/NDK/android-ndk-r9/toolchains/arm-linux-androideabi-4.8.0/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8.0/../../../../arm-linux-androideabi/bin/
+LIBRARY_PATH=/home/thomas/aosp/NDK/android-ndk-r9/toolchains/arm-linux-androideabi-4.8.0/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8.0/:/home/thomas/aosp/NDK/android-ndk-r9/toolchains/arm-linux-androideabi-4.8.0/prebuilt/linux-x86_64/bin/../lib/gcc/:/home/thomas/aosp/NDK/android-ndk-r9/toolchains/arm-linux-androideabi-4.8.0/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8.0/../../../../arm-linux-androideabi/lib/:/home/thomas/aosp/NDK/android-ndk-r9/toolchains/arm-linux-androideabi-4.8.0/prebuilt/linux-x86_64/bin/../sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec70236690' '-L/libs/armeabi' '-march=armv5te' '-mfloat-abi=soft' '-mfpu=vfp' '-mtls-dialect=gnu'
+ /home/thomas/aosp/NDK/android-ndk-r9/toolchains/arm-linux-androideabi-4.8.0/prebuilt/linux-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.8.0/collect2 --sysroot=/home/thomas/aosp/NDK/android-ndk-r9/toolchains/arm-linux-androideabi-4.8.0/prebuilt/linux-x86_64/bin/../sysroot --eh-frame-hdr -dynamic-linker /system/bin/linker -X -m armelf_linux_eabi -o cmTryCompileExec70236690 /home/thomas/aosp/NDK/android-ndk-r9/toolchains/arm-linux-androideabi-4.8.0/prebuilt/linux-x86_64/bin/../sysroot/usr/lib/crtbegin_dynamic.o -L/libs/armeabi -L/home/thomas/aosp/NDK/android-ndk-r9/toolchains/arm-linux-androideabi-4.8.0/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8.0 -L/home/thomas/aosp/NDK/android-ndk-r9/toolchains/arm-linux-androideabi-4.8.0/prebuilt/linux-x86_64/bin/../lib/gcc -L/home/thomas/aosp/NDK/android-ndk-r9/toolchains/arm-linux-androideabi-4.8.0/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8.0/../../../../arm-linux-androideabi/lib -L/home/thomas/aosp/NDK/android-ndk-r9/toolchains/arm-linux-androideabi-4.8.0/prebuilt/linux-x86_64/bin/../sysroot/usr/lib --no-undefined --gc-sections -z noexecstack -z relro -z now -z nocopyreloc CMakeFiles/cmTryCompileExec70236690.dir/CMakeFortranCompilerABI.F.o -lgfortran -lm -lgcc -lm -lgcc -lc -ldl -lgcc /home/thomas/aosp/NDK/android-ndk-r9/toolchains/arm-linux-androideabi-4.8.0/prebuilt/linux-x86_64/bin/../sysroot/usr/lib/crtend_android.o
+make[1]: Leaving directory `/home/thomas/build/android-cmake/cmdline.r9/build/armeabi/CMakeFiles/CMakeTmp'
+
+
+Parsed Fortran implicit link information from above output:
+  link line regex: [^( *|.*[/\])(arm-linux-androideabi-ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/thomas/build/android-cmake/cmdline.r9/build/armeabi/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTryCompileExec70236690/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec70236690.dir/build.make CMakeFiles/cmTryCompileExec70236690.dir/build]
+  ignore line: [make[1]: Entering directory `/home/thomas/build/android-cmake/cmdline.r9/build/armeabi/CMakeFiles/CMakeTmp']
+  ignore line: [/home/thomas/cmake-3.2.2/bin/cmake -E cmake_progress_report /home/thomas/build/android-cmake/cmdline.r9/build/armeabi/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building Fortran object CMakeFiles/cmTryCompileExec70236690.dir/CMakeFortranCompilerABI.F.o]
+  ignore line: [/home/thomas/NDK/android-ndk-r9/toolchains/arm-linux-androideabi-4.8.0/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gfortran  -DANDROID -isystem /home/thomas/NDK/android-ndk-r9/platforms/android-14/arch-arm/usr/include -isystem /home/thomas/NDK/android-ndk-r9/sources/cxx-stl/gnu-libstdc++/include -isystem /home/thomas/NDK/android-ndk-r9/sources/cxx-stl/gnu-libstdc++/libs/armeabi/include -isystem /home/thomas/NDK/android-ndk-r9/sources/cxx-stl/gnu-libstdc++/include/backward    -c /home/thomas/cmake-3.2.2/share/cmake-3.2/Modules/CMakeFortranCompilerABI.F -o CMakeFiles/cmTryCompileExec70236690.dir/CMakeFortranCompilerABI.F.o]
+  ignore line: [Linking Fortran executable cmTryCompileExec70236690]
+  ignore line: [/home/thomas/cmake-3.2.2/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec70236690.dir/link.txt --verbose=1]
+  ignore line: [/home/thomas/NDK/android-ndk-r9/toolchains/arm-linux-androideabi-4.8.0/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gfortran    -Wl,--no-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc -v   CMakeFiles/cmTryCompileExec70236690.dir/CMakeFortranCompilerABI.F.o  -o cmTryCompileExec70236690  -L/libs/armeabi   ]
+  ignore line: [Driving: /home/thomas/NDK/android-ndk-r9/toolchains/arm-linux-androideabi-4.8.0/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gfortran -Wl,--no-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc -v CMakeFiles/cmTryCompileExec70236690.dir/CMakeFortranCompilerABI.F.o -o cmTryCompileExec70236690 -L/libs/armeabi -l gfortran -l m]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/thomas/NDK/android-ndk-r9/toolchains/arm-linux-androideabi-4.8.0/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gfortran]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/thomas/aosp/NDK/android-ndk-r9/toolchains/arm-linux-androideabi-4.8.0/prebuilt/linux-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.8.0/lto-wrapper]
+  ignore line: [Target: arm-linux-androideabi]
+  ignore line: [Configured with: /home/thomas/aosp/NDK/android-ndk-r9/src/build/../gcc/gcc-4.8.0/configure --prefix=/tmp/ndk-thomas/build/toolchain/prefix --target=arm-linux-androideabi --host=x86_64-linux-gnu --build=x86_64-linux-gnu --with-gnu-as --with-gnu-ld --enable-languages=c,c++,fortran --with-gmp=/tmp/ndk-thomas/build/toolchain/temp-install --with-mpfr=/tmp/ndk-thomas/build/toolchain/temp-install --with-mpc=/tmp/ndk-thomas/build/toolchain/temp-install --disable-libssp --enable-threads --disable-nls --disable-libmudflap --disable-libgomp --disable-libstdc__-v3 --disable-sjlj-exceptions --disable-shared --disable-tls --with-float=soft --with-fpu=vfp --with-arch=armv5te --enable-target-optspace --enable-initfini-array --disable-nls --prefix=/tmp/ndk-thomas/build/toolchain/prefix --with-sysroot=/tmp/ndk-thomas/build/toolchain/prefix/sysroot --with-binutils-version=2.22.90 --with-mpfr-version=3.0.1 --with-mpc-version=1.0 --with-gmp-version=5.0.5 --with-gcc-version=4.8.0 --with-gdb-version=7.4.1 --with-gxx-include-dir=/tmp/ndk-thomas/build/toolchain/prefix/include/c++/4.8.0 --enable-languages=c,c++,fortran --disable-tls --disable-libitm --disable-libatomic --disable-bootstrap --disable-libquadmath --disable-libquadmath-support --disable-plugin --disable-libgomp --disable-libsanitizer --enable-gold=default --enable-graphite=yes --with-cloog-version=0.18.0 --with-isl-version=0.11.1 --with-arch=armv5te --program-transform-name='s,^,arm-linux-androideabi-,']
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.8.0 20120807 (experimental) (GCC) ]
+  ignore line: [Reading specs from /home/thomas/aosp/NDK/android-ndk-r9/toolchains/arm-linux-androideabi-4.8.0/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8.0/../../../../arm-linux-androideabi/lib/libgfortran.spec]
+  ignore line: [rename spec lib to liborig]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec70236690' '-L/libs/armeabi' '-march=armv5te' '-mfloat-abi=soft' '-mfpu=vfp' '-mtls-dialect=gnu']
+  ignore line: [COMPILER_PATH=/home/thomas/aosp/NDK/android-ndk-r9/toolchains/arm-linux-androideabi-4.8.0/prebuilt/linux-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.8.0/:/home/thomas/aosp/NDK/android-ndk-r9/toolchains/arm-linux-androideabi-4.8.0/prebuilt/linux-x86_64/bin/../libexec/gcc/:/home/thomas/aosp/NDK/android-ndk-r9/toolchains/arm-linux-androideabi-4.8.0/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8.0/../../../../arm-linux-androideabi/bin/]
+  ignore line: [LIBRARY_PATH=/home/thomas/aosp/NDK/android-ndk-r9/toolchains/arm-linux-androideabi-4.8.0/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8.0/:/home/thomas/aosp/NDK/android-ndk-r9/toolchains/arm-linux-androideabi-4.8.0/prebuilt/linux-x86_64/bin/../lib/gcc/:/home/thomas/aosp/NDK/android-ndk-r9/toolchains/arm-linux-androideabi-4.8.0/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8.0/../../../../arm-linux-androideabi/lib/:/home/thomas/aosp/NDK/android-ndk-r9/toolchains/arm-linux-androideabi-4.8.0/prebuilt/linux-x86_64/bin/../sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec70236690' '-L/libs/armeabi' '-march=armv5te' '-mfloat-abi=soft' '-mfpu=vfp' '-mtls-dialect=gnu']
+  link line: [ /home/thomas/aosp/NDK/android-ndk-r9/toolchains/arm-linux-androideabi-4.8.0/prebuilt/linux-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.8.0/collect2 --sysroot=/home/thomas/aosp/NDK/android-ndk-r9/toolchains/arm-linux-androideabi-4.8.0/prebuilt/linux-x86_64/bin/../sysroot --eh-frame-hdr -dynamic-linker /system/bin/linker -X -m armelf_linux_eabi -o cmTryCompileExec70236690 /home/thomas/aosp/NDK/android-ndk-r9/toolchains/arm-linux-androideabi-4.8.0/prebuilt/linux-x86_64/bin/../sysroot/usr/lib/crtbegin_dynamic.o -L/libs/armeabi -L/home/thomas/aosp/NDK/android-ndk-r9/toolchains/arm-linux-androideabi-4.8.0/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8.0 -L/home/thomas/aosp/NDK/android-ndk-r9/toolchains/arm-linux-androideabi-4.8.0/prebuilt/linux-x86_64/bin/../lib/gcc -L/home/thomas/aosp/NDK/android-ndk-r9/toolchains/arm-linux-androideabi-4.8.0/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8.0/../../../../arm-linux-androideabi/lib -L/home/thomas/aosp/NDK/android-ndk-r9/toolchains/arm-linux-androideabi-4.8.0/prebuilt/linux-x86_64/bin/../sysroot/usr/lib --no-undefined --gc-sections -z noexecstack -z relro -z now -z nocopyreloc CMakeFiles/cmTryCompileExec70236690.dir/CMakeFortranCompilerABI.F.o -lgfortran -lm -lgcc -lm -lgcc -lc -ldl -lgcc /home/thomas/aosp/NDK/android-ndk-r9/toolchains/arm-linux-androideabi-4.8.0/prebuilt/linux-x86_64/bin/../sysroot/usr/lib/crtend_android.o]
+    arg [/home/thomas/aosp/NDK/android-ndk-r9/toolchains/arm-linux-androideabi-4.8.0/prebuilt/linux-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.8.0/collect2] ==> ignore
+    arg [--sysroot=/home/thomas/aosp/NDK/android-ndk-r9/toolchains/arm-linux-androideabi-4.8.0/prebuilt/linux-x86_64/bin/../sysroot] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/system/bin/linker] ==> ignore
+    arg [-X] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec70236690] ==> ignore
+    arg [/home/thomas/aosp/NDK/android-ndk-r9/toolchains/arm-linux-androideabi-4.8.0/prebuilt/linux-x86_64/bin/../sysroot/usr/lib/crtbegin_dynamic.o] ==> ignore
+    arg [-L/libs/armeabi] ==> dir [/libs/armeabi]
+    arg [-L/home/thomas/aosp/NDK/android-ndk-r9/toolchains/arm-linux-androideabi-4.8.0/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8.0] ==> dir [/home/thomas/aosp/NDK/android-ndk-r9/toolchains/arm-linux-androideabi-4.8.0/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8.0]
+    arg [-L/home/thomas/aosp/NDK/android-ndk-r9/toolchains/arm-linux-androideabi-4.8.0/prebuilt/linux-x86_64/bin/../lib/gcc] ==> dir [/home/thomas/aosp/NDK/android-ndk-r9/toolchains/arm-linux-androideabi-4.8.0/prebuilt/linux-x86_64/bin/../lib/gcc]
+    arg [-L/home/thomas/aosp/NDK/android-ndk-r9/toolchains/arm-linux-androideabi-4.8.0/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8.0/../../../../arm-linux-androideabi/lib] ==> dir [/home/thomas/aosp/NDK/android-ndk-r9/toolchains/arm-linux-androideabi-4.8.0/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8.0/../../../../arm-linux-androideabi/lib]
+    arg [-L/home/thomas/aosp/NDK/android-ndk-r9/toolchains/arm-linux-androideabi-4.8.0/prebuilt/linux-x86_64/bin/../sysroot/usr/lib] ==> dir [/home/thomas/aosp/NDK/android-ndk-r9/toolchains/arm-linux-androideabi-4.8.0/prebuilt/linux-x86_64/bin/../sysroot/usr/lib]
+    arg [--no-undefined] ==> ignore
+    arg [--gc-sections] ==> ignore
+    arg [-znoexecstack] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-znocopyreloc] ==> ignore
+    arg [CMakeFiles/cmTryCompileExec70236690.dir/CMakeFortranCompilerABI.F.o] ==> ignore
+    arg [-lgfortran] ==> lib [gfortran]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-ldl] ==> lib [dl]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/home/thomas/aosp/NDK/android-ndk-r9/toolchains/arm-linux-androideabi-4.8.0/prebuilt/linux-x86_64/bin/../sysroot/usr/lib/crtend_android.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc]
+  remove lib [gcc]
+  collapse library dir [/libs/armeabi] ==> [/libs/armeabi]
+  collapse library dir [/home/thomas/aosp/NDK/android-ndk-r9/toolchains/arm-linux-androideabi-4.8.0/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8.0] ==> [/home/thomas/aosp/NDK/android-ndk-r9/toolchains/arm-linux-androideabi-4.8.0/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.8.0]
+  collapse library dir [/home/thomas/aosp/NDK/android-ndk-r9/toolchains/arm-linux-androideabi-4.8.0/prebuilt/linux-x86_64/bin/../lib/gcc] ==> [/home/thomas/aosp/NDK/android-ndk-r9/toolchains/arm-linux-androideabi-4.8.0/prebuilt/linux-x86_64/lib/gcc]
+  collapse library dir [/home/thomas/aosp/NDK/android-ndk-r9/toolchains/arm-linux-androideabi-4.8.0/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8.0/../../../../arm-linux-androideabi/lib] ==> [/home/thomas/aosp/NDK/android-ndk-r9/toolchains/arm-linux-androideabi-4.8.0/prebuilt/linux-x86_64/arm-linux-androideabi/lib]
+  collapse library dir [/home/thomas/aosp/NDK/android-ndk-r9/toolchains/arm-linux-androideabi-4.8.0/prebuilt/linux-x86_64/bin/../sysroot/usr/lib] ==> [/home/thomas/aosp/NDK/android-ndk-r9/toolchains/arm-linux-androideabi-4.8.0/prebuilt/linux-x86_64/sysroot/usr/lib]
+  implicit libs: [gfortran;m;m;c;dl]
+  implicit dirs: [/libs/armeabi;/home/thomas/aosp/NDK/android-ndk-r9/toolchains/arm-linux-androideabi-4.8.0/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.8.0;/home/thomas/aosp/NDK/android-ndk-r9/toolchains/arm-linux-androideabi-4.8.0/prebuilt/linux-x86_64/lib/gcc;/home/thomas/aosp/NDK/android-ndk-r9/toolchains/arm-linux-androideabi-4.8.0/prebuilt/linux-x86_64/arm-linux-androideabi/lib;/home/thomas/aosp/NDK/android-ndk-r9/toolchains/arm-linux-androideabi-4.8.0/prebuilt/linux-x86_64/sysroot/usr/lib]
+  implicit fwks: []
+
+
+Determining if the Fortran compiler supports Fortran 90 passed with the following output:
+Change Dir: /home/thomas/build/android-cmake/cmdline.r9/build/armeabi/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2853608235/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2853608235.dir/build.make CMakeFiles/cmTryCompileExec2853608235.dir/build
+make[1]: Entering directory `/home/thomas/build/android-cmake/cmdline.r9/build/armeabi/CMakeFiles/CMakeTmp'
+/home/thomas/cmake-3.2.2/bin/cmake -E cmake_progress_report /home/thomas/build/android-cmake/cmdline.r9/build/armeabi/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building Fortran object CMakeFiles/cmTryCompileExec2853608235.dir/testFortranCompilerF90.f90.o
+/home/thomas/NDK/android-ndk-r9/toolchains/arm-linux-androideabi-4.8.0/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gfortran  -DANDROID -isystem /home/thomas/NDK/android-ndk-r9/platforms/android-14/arch-arm/usr/include -isystem /home/thomas/NDK/android-ndk-r9/sources/cxx-stl/gnu-libstdc++/include -isystem /home/thomas/NDK/android-ndk-r9/sources/cxx-stl/gnu-libstdc++/libs/armeabi/include -isystem /home/thomas/NDK/android-ndk-r9/sources/cxx-stl/gnu-libstdc++/include/backward    -c /home/thomas/build/android-cmake/cmdline.r9/build/armeabi/CMakeFiles/CMakeTmp/testFortranCompilerF90.f90 -o CMakeFiles/cmTryCompileExec2853608235.dir/testFortranCompilerF90.f90.o
+Linking Fortran executable cmTryCompileExec2853608235
+/home/thomas/cmake-3.2.2/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2853608235.dir/link.txt --verbose=1
+/home/thomas/NDK/android-ndk-r9/toolchains/arm-linux-androideabi-4.8.0/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gfortran    -Wl,--no-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc    CMakeFiles/cmTryCompileExec2853608235.dir/testFortranCompilerF90.f90.o  -o cmTryCompileExec2853608235  -L/libs/armeabi  
+make[1]: Leaving directory `/home/thomas/build/android-cmake/cmdline.r9/build/armeabi/CMakeFiles/CMakeTmp'
+
+

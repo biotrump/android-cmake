@@ -1,0 +1,4 @@
+/home/thomas/build/android-cmake/cmdline.r9/build/armeabi/CMakeFiles/hello-f77.dir
+/home/thomas/build/android-cmake/cmdline.r9/build/armeabi/CMakeFiles/hello-f90.dir
+/home/thomas/build/android-cmake/cmdline.r9/build/armeabi/CMakeFiles/hello-f95.dir
+/home/thomas/build/android-cmake/cmdline.r9/build/armeabi/CMakeFiles/hello-c.dir

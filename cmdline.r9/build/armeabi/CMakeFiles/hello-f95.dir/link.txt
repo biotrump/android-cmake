@@ -1,0 +1,1 @@
+/home/thomas/NDK/android-ndk-r9/toolchains/arm-linux-androideabi-4.8.0/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gfortran    -Wl,--no-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc -funroll-all-loops -fPIE -pie -fPIC -fno-f2c -O2 CMakeFiles/hello-f95.dir/hello.f95.o  -o bin/hello-f95  -lgfortran 
