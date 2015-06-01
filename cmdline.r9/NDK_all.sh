@@ -1,4 +1,5 @@
 #!/bin/bash
+TARGET_ARCH=all
 if [ $TARGET_ARCH == "all" ]; then
 	./build_NDK_cmake.sh -abi armeabi -acc generic -c
 	ret1=$?
